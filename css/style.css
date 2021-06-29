@@ -1,0 +1,39 @@
+div {
+    display:inline-block;
+}
+.heroImg{
+margin:0 auto;
+text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-style:italic;
+    font-weight:700;
+font-family:'Poppins', sans-serif;
+}
+h2{
+    font-size:60px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family:'Poppins', sans-serif;
+}
+ul{
+    text-align: left;
+    vertical-align: top;
+    width:100%;
+    margin-left:auto;
+    float:left;
+    display:flex;
+    justify-content:space-between;
+}
+.down{
+    height:169px;
+    width:169px;
+}
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+nav{
+    width:80%;
+}
