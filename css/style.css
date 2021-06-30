@@ -1,6 +1,4 @@
-div {
-    display:inline-block;
-}
+
 .heroImg{
 margin:0 auto;
 text-align: center;
@@ -18,13 +16,12 @@ h2{
     font-family:'Poppins', sans-serif;
 }
 ul{
-    text-align: left;
+    text-align: right;
     vertical-align: top;
     width:100%;
-    margin-left:auto;
-    float:left;
     display:flex;
     justify-content:space-between;
+    padding-right:200px;
 }
 .down{
     height:169px;
@@ -36,4 +33,8 @@ ul{
 }
 nav{
     width:80%;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
 }
