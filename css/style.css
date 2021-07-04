@@ -86,9 +86,7 @@ body{
 }
      .project {
         display:flex;
-        padding-left:10%;
-        padding-right:20%;
-        padding-bottom: 20%;
+        padding: 20%;
         margin-right:50px;
     }
     .image{
