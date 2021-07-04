@@ -2,7 +2,7 @@ html{
    scroll-behavior: smooth; 
 }
 .heroImg{
-margin:0 auto;
+margin-left: 10%;
 text-align: center;
 margin-top: 200px;
 align-items:center;
@@ -16,9 +16,9 @@ align-items:center;
     .leftSparkle{
         height:188px;
         width:188px;
-
         float:left;
-        transform:rotate(-12deg)
+        transform:rotate(-12deg);
+        position:relative;
     }
 h1{
     font-size: 30px;
@@ -80,7 +80,7 @@ body{
     grid-template-columns: 1fr 3fr;
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 50px;
-    width:1086px;
+    width:100%;
     margin-left: 10%;
     margin-right: 15%;
     align-content: center;
@@ -184,3 +184,47 @@ justify-content: space-evenly;
     bottom:0;
     
     }
+    /*/ Small devices (landscape phones, 379px and up)*/
+    @media (max-width: 379px min-width:0px) {
+       body{
+           display:block;
+       }
+       .rightSparkle img {
+          display:none;
+       }
+       .leftSparkle img {
+           display:none;
+       }
+
+       .intro{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: px;
+        grid-row-gap: px;
+        margin:0 auto;
+        }
+        .fixed{
+            justify-content: left;
+        }
+        h4,.anxiety{
+            position: static;
+            margin-left: 33.3%;
+            margin-right:33.3%;
+        }
+        h4{
+            text-align: left;
+        }
+        .grid{
+            align-content: center;
+
+    
+    }
+    /*/ Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) { ... }
+    
+    /*/ Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) { ... }
+    
+    /*/ Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) { ... }
